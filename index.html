@@ -35,29 +35,30 @@
             <section id="form">
                     <form id="form-1">
             <div class="card">
-                <div class="message">
+                <!-----<div class="message">
                  <label>First name</label>
                  <input class="input" type="text" required name="Name"><br>
                  <label>Middle name</label>
                  <input class="input" type="text" required name="Name"><br>
                  <label>Last name</label>
                  <input class="input" type="text" required name="Name">   
-                </div>
+                </div>---->
 
                   <label>Enter your birthday</label><br>
             <div class="day">
                 <input type="date" id="bday" name="bday"><br>
             </div>
                <label>choose your gender</label><br>
-            <div class="input" id="gender">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="male" value="male">male
+            <div class="male">
+                    <label class="radio">
+                      <input type="radio" class="male" value="male">male</input>
                     </label>
-                    <label class="form-check-label">
-                      <input type="checkbox" class="female" value="female">female
+                    <label class="radio">
+                      <input type="radio" class="female" value="female">female</input>
                     </label>
                   </div>
-            <button onclick="dayNames()" id="submitButton" value="submit">submit</button> 
+                  <button onclick="dayNames()" id="submitButton" >Submit</button>
+            
             <div>
                 answer:<span id="answer"></span>
             </div>

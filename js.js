@@ -1,5 +1,5 @@
 function dayNames(){
-  var gender,DD,MM,YY,;
+  var gender,DD,MM,YY;
 var gender = document.getElementById('gender');
 var DD = document.getElementById('bday');
 var MM = document.getElementById('bday');
