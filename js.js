@@ -1,15 +1,17 @@
 function dayNames(){
+
   var gender,DD,MM,YY;
-var gender = document.getElementById('gender');
-var DD = document.getElementById('bday');
-var MM = document.getElementById('bday');
-var YY = document.getElementById('bday');
+  var gender = prompt('choose your gender');
+  var DD = parseInt(prompt('choose your day'));
+  var MM = parseInt(prompt('choose your month'));
+  var YY = parseInt(prompt('choose your year'));
+  
 var century = (YY-1)/100+1;
-var CC=(century);
+var CC=parseFloat(century);
 var names=['akosua','adwoa','abenaa','akua','yaa','afua','ama'] ;
 var dayOfBirth=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
 var maleNames=['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
-var day =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
+var day = parseFloat ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
 var day= (day.toFixed(0));
 
   if(day==1 && gender=='female'){
