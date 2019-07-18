@@ -1,4 +1,4 @@
-function calculateday(bday)
+/*function calculateday(bday)
 bday= ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7;
 
 
@@ -32,4 +32,17 @@ var mark{
  var johnBmi = 120/(1.85*1.85);
  console.log(johnBmi) ;
  var isJohnGreater= markBmi>johnBmi;
- console.log(isJohnGreater);
+ console.log(isJohnGreater);*/
+
+ var gender = prompt('choose your gender');
+var DD = parseInt(prompt('choose your day'));
+var MM = parseInt(prompt('choose your month'));
+var YY = parseInt(prompt('choose your year'));
+var CC= parseInt(prompt('choose your century'));
+var names=['akosua','adwoa','abenaa','akua','yaa','afua','ama'] ;
+var maleNames=['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
+  calcday:function(days){
+    days=(((this.cc/4)-2*this.cc-1)+((5*this.yy/4))+((26*(this.mm+1)/10))+this.dd)%7;
+return days;}
+var days= calcday:function(days);
+console.log(days);

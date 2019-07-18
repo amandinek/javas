@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!----<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
     <title>Document</title>
     <link href="bootstrap.css" rel="stylesheet" type="text/css">
     <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="js.js">
 </head>
 <body>
     <script src="js.js"></script>
@@ -42,23 +43,30 @@
                  <label>Last name</label>
                  <input class="input" type="text" required name="Name">   
                 </div>
+
                   <label>Enter your birthday</label><br>
             <div class="day">
-                <input type="date" name="bday"><br>
+                <input type="date" id="bday" name="bday"><br>
             </div>
                <label>choose your gender</label><br>
-            <div class="form-check">
+            <div class="male">
                     <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" value="">male
+                      <input type="checkbox" class="male" value="male">male
                     </label>
                   </div>
-                  <div class="form-check">
+                  <div class="female">
                     <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" value="">female
+                      <input type="checkbox" class="female" value="female">female
                     </label>
                   </div>
-            <input type="button" onclick="alert('akhana name')" value="submit!"> 
+            <input type="button" onclick="days()" id="submitButton" value="submit"> 
+            <div>
+                answer:<span id="answer"></span>
+            </div>
         </form> 
+        <div id="answer">
+
+        </div>
     </section>
     </div>
     <div class=".modal-footer">
