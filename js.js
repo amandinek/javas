@@ -52,6 +52,8 @@ var day = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
     }else{
       alert('your akana name is '+ maleNames[0]);
     }
+  
+  
 
    
 

@@ -1,5 +1,5 @@
-var firstName = 'john';
-console.log('firstName');
+//*** var firstName = 'john';
+* console.log('firstName');
 var lastNmae = 'Smith';
 var age = 28;
 var fullAge = true;
@@ -73,5 +73,14 @@ console.log(johnYear);
      var retirement=65-age;
      console.log(name +' '+  'retires in ' + retirement + ' years');
  }
- retirementYears(1990,'Paul');
+ retirementYears(1990,'Paul');*****/
  
+/*****************************objects */
+var john={
+    firstNmae:
+    lastName:
+    birthYear:
+    family:
+    job:
+    isMarried
+}
