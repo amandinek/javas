@@ -22,35 +22,35 @@ var day = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
 
 
     if(day==1 && gender=='female'){
-      alert(names[1]);
+      alert('your akana name is'+ names[1]);
     } else if(day==2 && gender=='female'){
       alert(names[2]);
     } else if(day==3 && gender=='female'){
-      alert(names[3]);
+      alert('your akana name is'+ names[3]);
     } else if(day==4 && gender=='female'){
-      alert(names[4]);
+      alert('your akana name is'+ names[4]);
     } else if(day==5 && gender=='female'){
-      alert(names[5]);
+      alert('your akana name is'+ names[5]);
     } else if(day==6 && gender=='female'){
-      alert(names[6]);
+      alert('your akana name is'+ names[6]);
     }else{
-      alert(names[0]);
+      alert('your akana name is'+ names[0]);
     }
 
     if(day==1 && gender=='male'){
-      alert(maleNames[1]);
+      alert('your akana name is'+ maleNames[1]);
     } else if(day==2 && gender=='male'){
-      alert(maleNames[2]);
+      alert('your akana name is'+ maleNames[2]);
     } else if(day==3 && gender=='male'){
-      alert(maleNames[3]);
+      alert('your akana name is'+ maleNames[3]);
     } else if(day==4 && gender=='male'){
-      alert(maleNames[4]);
+      alert('your akana name is'+ maleNames[4]);
     } else if(day==5 && gender=='male'){
-      alert(maleNames[5]);
+      alert('your akana name is'+ maleNames[5]);
     } else if(day==6 && gender=='male'){
-      alert(maleNames[6]);
+      alert('your akana name is'+ maleNames[6]);
     }else{
-      alert(maleNames[0]);
+      alert('your akana name is'+ maleNames[0]);
     }
 
    
