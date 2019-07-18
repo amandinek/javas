@@ -1,8 +1,9 @@
 function dayNames(){
-var gender = prompt('choose your gender');
-var DD = parseInt(prompt('choose your day'));
-var MM = parseInt(prompt('choose your month'));
-var YY = parseInt(prompt('choose your year'));
+  var gender,DD,MM,YY,;
+var gender = document.getElementById('gender');
+var DD = document.getElementById('bday');
+var MM = document.getElementById('bday');
+var YY = document.getElementById('bday');
 var century = (YY-1)/100+1;
 var CC=(century);
 var names=['akosua','adwoa','abenaa','akua','yaa','afua','ama'] ;
