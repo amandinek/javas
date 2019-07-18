@@ -1,4 +1,4 @@
-
+function dayNames(){
 var gender = prompt('choose your gender');
 var DD = parseInt(prompt('choose your day'));
 var MM = parseInt(prompt('choose your month'));
@@ -40,6 +40,7 @@ var day= (day.toFixed(0));
     }else if (day==0 && gender=='male'){
       alert(' you were born on '+ dayOfBirth[0] +'your akana name is '+ maleNames[0]);
     }
+  }
   
   
 
