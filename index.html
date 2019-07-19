@@ -33,7 +33,7 @@
                 <p>This is a plat form that helps you to know your akana name based on your birth day all you have to do is to fill out the provided form and let us work the magic.</p>
             </section>
             <section id="form">
-                <form id="form-1">
+                
                     <div class="card">
                         <!-----<div class="message">
                         <label>First name</label>
@@ -52,10 +52,17 @@
                     <label>choose your gender</label><br>
                     <div>
                             
-                            <input  id="male" type="radio" class="male" value="male">male</input>
+                            <!-- <input  id="male" type="radio" class="male" value="male">male</input>
                             
                         
-                            <input id="female" type="radio" class="female" value="female">female</input>
+                            <input id="female" type="radio" class="female" value="female">female</input> -->
+
+                            <label class="radio-inline">
+                                <input type="radio" name="male" id="male" value="male" >Male
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="female" id="female" value="female">Female
+                            </label>
                             
                     </div>
                     <button onclick= "dayNames()"  >Submit</button>
@@ -63,7 +70,7 @@
                     <div>
                         answer:<span id="answer"></span>
                     </div> 
-            </form>   
+              
                 <p id="answer"></p>
             </section>
         </div>
