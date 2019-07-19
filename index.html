@@ -1,82 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!----<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
-    <title>Document</title>
-    <link href="bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="js.js">
-</head>
-<body>
-    <script src="js.js"></script>
-    <div class="container">
-        <header>
-                <div class="nav">
-                    <div class=".nav-link">
-                        <nav>
-                            <ul>
-                                <li>
-                                    <a href="#home" >Home</a>
-                                </li>
-                                <li>
-                                    <a href="#form">About</a>
-                                </li>
-                                </ul>
-                                </nav>
-                            </div>
-                </div>
-        </header>
-        <section id="about">
-            <h1>About</h1>
-            <p>This is a plat form that helps you to know your akana name based on your birth day all you have to do is to fill out the provided form and let us work the magic.</p>
-        </section>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!----<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+        <title>Document</title>
+        <link href="bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <!-- <link rel="stylesheet" type="text/css" href="js.js"> -->
+    </head>
+    <body>
+        <script src="js.js"></script>
+        <div class="container">
+            <header>
+                    <div class="nav">
+                        <div class=".nav-link">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#home" >Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#form">About</a>
+                                    </li>
+                                    </ul>
+                                    </nav>
+                                </div>
+                    </div>
+            </header>
+            <section id="about">
+                <h1>About</h1>
+                <p>This is a plat form that helps you to know your akana name based on your birth day all you have to do is to fill out the provided form and let us work the magic.</p>
+            </section>
             <section id="form">
-                    <form id="form-1">
-            <div class="card">
-                <!-----<div class="message">
-                 <label>First name</label>
-                 <input class="input" type="text" required name="Name"><br>
-                 <label>Middle name</label>
-                 <input class="input" type="text" required name="Name"><br>
-                 <label>Last name</label>
-                 <input class="input" type="text" required name="Name">   
-                </div>---->
+                <form id="form-1">
+                    <div class="card">
+                        <!-----<div class="message">
+                        <label>First name</label>
+                        <input class="input" type="text" required name="Name"><br>
+                        <label>Middle name</label>
+                        <input class="input" type="text" required name="Name"><br>
+                        <label>Last name</label>
+                        <input class="input" type="text" required name="Name">   
+                        </div>---->
+                    
 
-                  <label>Enter your birthday</label><br>
-            <div class="day">
-                <input type="date" id="bday" name="bday"><br>
-            </div>
-               <label>choose your gender</label><br>
-            <div id="gender">
-                    
-                      <input type="radio" class="male" value="male">male</input>
-                    
+                    <label>Enter your birthday</label><br>
+                    <div class="day">
+                        <input type="date" id="bday" name="bday"><br>
+                    </div>
+                    <label>choose your gender</label><br>
+                    <div>
+                            
+                            <input  id="male" type="radio" class="male" value="male">male</input>
+                            
+                        
+                            <input id="female" type="radio" class="female" value="female">female</input>
+                            
+                    </div>
+                    <button onclick= "dayNames()"  >Submit</button>
                 
-                      <input type="radio" class="female" value="female">female</input>
-                    
-                  </div>
-                  <button onclick="dayNames()" id="submitButton" >Submit</button>
-            
-            <div>
-                answer:<span id="answer"></span>
-            </div>
-        </form> 
-        <div id="answer">
+                    <div>
+                        answer:<span id="answer"></span>
+                    </div> 
+            </form>   
+                <!-- <div id="answer">
 
+                </div> -->
+            </section>
         </div>
-    </section>
-    </div>
-    <div class=".modal-footer">
-              
-        <footer>
-                <p><img src="https://img.icons8.com/ios/16/000000/copyright.png">2019 by Karambizi Amandine Gloria.</p>
-                 <a href="https://web.facebook.com/gloria.karambizi"><img src="https://img.icons8.com/material-rounded/24/000000/facebook.png"></a>
-                 <a href="https://www.instagram.com/k_ag_24/"><img src="https://img.icons8.com/ios-glyphs/24/000000/instagram-new.png"></a>
-          </footer>
-        
-        </div> 
-    </div>
-</body>
-</html>
+        <div class=".modal-footer">
+                
+            <footer>
+                    <p><img src="https://img.icons8.com/ios/16/000000/copyright.png">2019 by Karambizi Amandine Gloria.</p>
+                    <a href="https://web.facebook.com/gloria.karambizi"><img src="https://img.icons8.com/material-rounded/24/000000/facebook.png"></a>
+                    <a href="https://www.instagram.com/k_ag_24/"><img src="https://img.icons8.com/ios-glyphs/24/000000/instagram-new.png"></a>
+            </footer>
+            
+            </div> 
+        </div>
+    </body>
+    </html>
