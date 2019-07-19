@@ -26,33 +26,33 @@
             
 
               if( gender=='female' && day==1){
-                alert(' document.getyou were born on '+ dayOfBirth[1]  + ' your akana name is '+ names[1]);
+                document.getElementById("answer").innerHTML='you were born on '+ dayOfBirth[1]  + ' your akana name is '+ names[1];
                 } else if( gender=='female' && day==2){
-                  alert(' you were born on '+ dayOfBirth[2]  + ' your akana name is '+ names[2]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[2]  + ' your akana name is '+ names[2];
                 } else if( gender=='female' &&day==3 ){
-                  alert(' you were born on '+ dayOfBirth[3] +' your akana name is '+ names[3]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[3] +' your akana name is '+ names[3];
                 } else if(gender=='female' &&day==4){
-                  alert(' you were born on '+ dayOfBirth[4] +' your akana name is '+ names[4]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[4] +' your akana name is '+ names[4];
                 } else if(gender=='female' &&day==5){
-                  alert(' you were born on '+ dayOfBirth[5] +' your akana name is '+ names[5]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[5] +' your akana name is '+ names[5];
                 } else if(gender=='female' &&day==6){
-                  alert(' you were born on '+ dayOfBirth[6] +' your akana name is '+ names[6]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[6] +' your akana name is '+ names[6];
                 }else if(gender=='female' &&day==0){
-                  alert(' you were born on '+ dayOfBirth[0] +' your akana name is '+ names[0]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[0] +' your akana name is '+ names[0];
                 }else if(gender=="male" &&day==1){
-                  alert(' you were born on '+ dayOfBirth[1] +' your akana name is '+ maleNames[1]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[1] +' your akana name is '+ maleNames[1];
                 } else if(gender=="male" &&day==2){
-                  alert(' you were born on '+ dayOfBirth[2] +' your akana name is '+ maleNames[2]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[2] +' your akana name is '+ maleNames[2];
                 } else if(gender=="male" &&day==3){
-                  alert(' you were born on '+ dayOfBirth[3] +' your akana name is '+ maleNames[3]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[3] +' your akana name is '+ maleNames[3];
                 } else if(gender=="male" &&day==4){
-                  alert(' you were born on '+ dayOfBirth[4] +' your akana name is '+ maleNames[4]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[4] +' your akana name is '+ maleNames[4];
                 } else if(gender=="male" &&day==5){
-                  alert(' you were born on '+ dayOfBirth[5] +' your akana name is '+ maleNames[5]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[5] +' your akana name is '+ maleNames[5];
                 } else if(gender=="male" &&day==6){
-                  alert(' you were born on '+ dayOfBirth[6] +' your akana name is '+ maleNames[6]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[6] +' your akana name is '+ maleNames[6];
                 }else if (gender=="male" &&day==0){
-                  alert(' you were born on '+ dayOfBirth[0] +' your akana name is '+ maleNames[0]);
+                  document.getElementById("answer").innerHTML=' you were born on '+ dayOfBirth[0] +' your akana name is '+ maleNames[0];
                 }
               }
               
