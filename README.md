@@ -21,9 +21,12 @@ To do this projrct I used css and html and Javascript.
 
 #### contact details
 
-name:Karambizi Amandine Gloria
-e-mail: karambiziga@ymail.com
+name:Karambizi Amandine Gloria.
+
+e-mail: karambiziga@ymail.com.
+
 tel:0782398092
+
 gitname:amandinek
 
 
