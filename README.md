@@ -1,4 +1,4 @@
-# Day of birth Prediction 
+# Name Prediction App. 
 
 #### Description
 
