@@ -1,11 +1,12 @@
             function dayNames(){
         var input =document.getElementById('bday').value;
-        var DD,MM,YY;
+        var DD,MM,YY ;
         var d =new Date (input);
         
-        YY = d.getFullYear();
-        MM = d.getMonth();
+        YY = d.getFullYear(); 
+        MM=d.getMonth();
         MM=MM+1;
+         
         DD = d.getDate();
         
         
@@ -18,7 +19,7 @@
             var maleNames=['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
             var day = parseFloat ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
             var day= (day.toFixed(0));
-            console.log(day);
+            
             if( document.getElementById("male").checked){
               var gender = document.getElementById('male').value;
             }else{
