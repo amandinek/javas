@@ -53,6 +53,8 @@
                   document.getElementById("answer").innerHTML=' You were born on '+ dayOfBirth[6] +' your akan name is '+ maleNames[6];
                 }else if (gender=="male" &&day==0){
                   document.getElementById("answer").innerHTML=' You were born on '+ dayOfBirth[0] +' your akan name is '+ maleNames[0];
+                } else {
+                  document.getElementById("answer").innerHTML='Please fill the form';
                 }
               }
               
